@@ -5,7 +5,7 @@ I wanted to build a server to help those in the service industry track their tip
 
 Thus, Server Saver was born!
 
-Enjoy the app and let me know any feedback
+Enjoy the app and let me know any feedback.
 
 Dev,
 
