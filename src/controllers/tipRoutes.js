@@ -10,8 +10,6 @@ let pool = mysql.createPool({
     debug: false
   })
 
-exports.seeIfConnected = (req, res) => res.send("connected");
-
 exports.postTips = (req, res) => {
     const { time, date, tips } = req.query;
     const INSERT_TIPS_QUERY = `INSERT INTO tips (time, date, tips) VALUES('${time}', ${date}, ${tips})`

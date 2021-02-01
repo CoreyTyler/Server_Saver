@@ -3,9 +3,6 @@ const express = require('express')
 const router = express.Router()
 const tipController = require('../controllers/tipRoutes')
 
-router.get("/", tipController.seeIfConnected)
-
-
 router.get("/postTips", tipController.postTips)
 
 router.get("/getTips", tipController.getTips)
